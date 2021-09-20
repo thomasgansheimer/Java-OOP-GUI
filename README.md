@@ -20,16 +20,16 @@ Finally, we created a [state diagram](<Design Documents/state_diagram.JPG>) for 
 After the design was complete, it was time to begin coding. To improve the readability of our code, each class was stored in a package. The overall code structure is shown below:
 * Hardware
   - [Ticket.java](Code/hardware/Ticket.java)
-  - [Bus.java](Code/harware/Bus.java)
+  - [Bus.java](Code/hardware/Bus.java)
 * Software
   - [Route.java](Code/software/Route.java)
   - [TicketingDemo.java](Code/software/TicketingDemo.java)
   - [TicketingGUI.java](Code/software/TicketingGUI.java)
   - [TicketingSite.java](Code/software/TicketingSite.java)
 * People
-  - [Agent.java](Code/hardware/Agent.java)
-  - [Passenger.java](Code/hardware/Passenger.java)
-  - [User.java](Code/hardware/User.java)
+  - [Agent.java](Code/people/Agent.java)
+  - [Passenger.java](Code/people/Passenger.java)
+  - [User.java](Code/people/User.java)
 
 A GUI with the below main screen was also created, allowing for users to easily find and book bus tickets.
 
